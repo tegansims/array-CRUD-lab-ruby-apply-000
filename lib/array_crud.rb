@@ -27,9 +27,9 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  puts array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  puts array[array.length-1]
+  array[array.length-1]
 end
