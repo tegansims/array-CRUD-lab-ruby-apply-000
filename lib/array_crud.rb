@@ -1,11 +1,12 @@
-def create_an_empty_array[]
+def create_an_empty_array
+  []
 end
 
-def create_an_array["5", "6", "7", "8"]
+def create_an_array
+  array = ["5", "6", "7", "8"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array=[]
   array << element
 end
 
